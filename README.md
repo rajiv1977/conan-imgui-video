@@ -2,7 +2,7 @@
 
 Avi-formatted files are decoded using the H264 decoder, thus the raw image data can be exploited to implement imaging algorithms. The webcam is accessed using the OpenCV library, but the data is housed in a general raw data format (which can be visualized through ImGui). Webcam images are tracked using a Neural Network Model. 
 
-# Prerequisite (Windows or Unix):
+# Prerequisite (Windows):
 * Conan
 * CMake (latest)
 * Visual Studio 2022 (Win)
